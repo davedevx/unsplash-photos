@@ -1,0 +1,14 @@
+.image-item {
+  margin: 0;
+}
+
+.image-item a {
+  display: block;
+}
+
+.card-content {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}

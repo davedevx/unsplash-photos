@@ -1,0 +1,32 @@
+.navbar-item img {
+  max-height: 100%;
+}
+
+.navbar-link, a.navbar-item {
+  text-decoration: none;
+}
+
+.app-container {
+  padding: 1em;
+}
+
+.app-content {
+  margin-top: 1em;
+}
+
+.ant-spin-container {
+  height: 100%;
+}
+
+.ant-spin-blur {
+  overflow: auto;
+  opacity: .4;
+}
+
+.page-header .title {
+  margin-bottom: 1em;
+}
+
+.ant-notification .ant-notification-notice-with-icon .ant-notification-notice-message {
+  font-size: 1.5em;
+}

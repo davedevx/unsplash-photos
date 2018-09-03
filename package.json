@@ -1,0 +1,83 @@
+{
+  "name": "unsplash-photos",
+  "version": "1.0.0",
+  "description": "Unsplash Photos - get list of popular / latest / oldest photos or search by keyword.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveedx/unsplash-photos"
+  },
+  "keywords": [
+    "javascript",
+    "single-page-app",
+    "node",
+    "nodejs",
+    "node-js",
+    "express",
+    "expressjs",
+    "express-js",
+    "react",
+    "reactjs",
+    "react-js",
+    "unsplash",
+    "unsplash-client",
+    "unsplash-api",
+    "redux",
+    "flow",
+    "flowtype",
+    "antd",
+    "antdesign",
+    "bulma",
+    "bulma-css"
+  ],
+  "author": "David Bodrogi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daveedx/unsplash-photos/issues"
+  },
+  "homepage": "https://github.com/daveedx/unsplash-photos#readme",
+  "dependencies": {
+    "antd": "^3.8.4",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "es6-promise": "^4.2.4",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.4",
+    "react": "^16.4.2",
+    "react-app-rewire-less": "^2.1.3",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-logger": "^3.0.6",
+    "unsplash-js": "^4.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-import": "^1.8.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.79.0",
+    "react-app-rewired": "^1.5.2"
+  },
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build"
+  },
+  "proxy": "http://localhost:8080"
+}
